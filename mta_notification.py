@@ -1,9 +1,9 @@
 from google.transit import gtfs_realtime_pb2
 import requests
 import time # imports module for Epoch/GMT time conversion
-import os # imports module for dotenv
+import os # imports package for dotenv
 from dotenv import load_dotenv, find_dotenv # imports module for dotenv
-load_dotenv(find_dotenv()) # loads .env from root directory (?)
+load_dotenv(find_dotenv()) # loads .env from root directory
 
 # The root directory requires a .env file with API_KEY assigned/defined within
 # and dotenv installed from pypi. Get API key from http://datamine.mta.info/user
