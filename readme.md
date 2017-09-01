@@ -34,5 +34,8 @@ The specific station ID is currently hardcoded in, and is set for the southbound
 
 With the `collected_times` list now populated, you now have a list of all of the predicted arrival times and can do a variety of things with it. The rest of the script sorts this list to find the next two arrival times, pulls the current time to figure out the time until next arrival, and then prints out one of three different messages depending on the time to arrival.
 
+**License**
+------------
+Uses the MIT license.
 
 > Written with [StackEdit](https://stackedit.io/).
