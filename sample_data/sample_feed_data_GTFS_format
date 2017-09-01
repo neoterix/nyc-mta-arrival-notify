@@ -1,0 +1,168 @@
+header {
+  gtfs_realtime_version: "1.0"
+  incrementality: FULL_DATASET
+  timestamp: 1503104717
+}
+entity {
+  id: "21000001"
+  trip_update {
+    trip {
+      trip_id: "124000_B..S"
+      start_date: "20170818"
+      route_id: "B"
+    }
+    stop_time_update {
+      arrival {
+        time: 1503104714
+      }
+      departure {
+        time: 1503104714
+      }
+      stop_id: "D17S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503104894
+      }
+      departure {
+        time: 1503104894
+      }
+      stop_id: "D20S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503104999
+      }
+      departure {
+        time: 1503104999
+      }
+      stop_id: "D21S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503105119
+      }
+      departure {
+        time: 1503105119
+      }
+      stop_id: "D22S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503105509
+      }
+      departure {
+        time: 1503105509
+      }
+      stop_id: "Q02S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503105629
+      }
+      departure {
+        time: 1503105629
+      }
+      stop_id: "R30S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503105719
+      }
+      departure {
+        time: 1503105719
+      }
+      stop_id: "D24S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503105869
+      }
+      departure {
+        time: 1503105869
+      }
+      stop_id: "D25S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503106109
+      }
+      departure {
+        time: 1503106109
+      }
+      stop_id: "D26S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503106244
+      }
+      departure {
+        time: 1503106244
+      }
+      stop_id: "D28S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503106394
+      }
+      departure {
+        time: 1503106394
+      }
+      stop_id: "D31S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503106634
+      }
+      departure {
+        time: 1503106634
+      }
+      stop_id: "D35S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503106919
+      }
+      departure {
+        time: 1503106919
+      }
+      stop_id: "D39S"
+      schedule_relationship: SCHEDULED
+    }
+    stop_time_update {
+      arrival {
+        time: 1503107084
+      }
+      departure {
+        time: 1503107084
+      }
+      stop_id: "D40S"
+      schedule_relationship: SCHEDULED
+    }
+  }
+}
+entity {
+  id: "21000002"
+  vehicle {
+    trip {
+      trip_id: "124000_B..S"
+      start_date: "20170818"
+      route_id: "B"
+    }
+    current_stop_sequence: 14
+    current_status: STOPPED_AT
+    timestamp: 1503104714
+  }
+}
